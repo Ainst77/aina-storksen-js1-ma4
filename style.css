@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 ,h2{
+    color: white;
+}
+.mainHeader{
+    text-align: center;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color:black ;
+
+}
+
+img{
+    width: 100%;
+    max-height:60% ;
+    text-align: center;
+    margin-top:2% ;
+
+}
+.containerWrap {
+
+    width: 100%;
+    max-width: 1280px;
+    margin: 30px auto 0 auto;
+}
+.container{
+
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.containerInfo{
+    
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+}
+
+.gameInfo{
+
+    font-size: 0.75em; 
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    max-width: 300px;
+    margin: 1em;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;    
+}
+
+.platform{
+    font-style: italic;
+    font-size: 1em;
+}
+
+.reviews{
+
+color: white;
+margin-top:5% ;
+
+}
+
+.aboutImg{
+    max-height: 400px;
+    max-width: 45%;
+    margin: 3%;
+    float: right;
+}
+
+.gameDetails{
+float: left;
+max-width: 45%;
+color: white;
+
+}
